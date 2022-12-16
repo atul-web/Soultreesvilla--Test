@@ -62,10 +62,61 @@
         .dropdown:hover .dropdown-menu {
             display: block;
         }
+
+
+             .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    /*top: 30px;*/
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    /*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+       .float-3{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:0px;
+    left: 40px;
+    /*top: 30px;*/
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    /*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+}
+
+.my-float-3{
+    margin-top:16px;
+}
+
     </style>
 </head>
 
 <body>
+
+    <a href="https://wa.me/+919175186783" class="float" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
+    <a href="tel:9175186783" class="float-3" target="_blank">
+      <i class="fa fa-phone my-float-3"></i>
+    </a>
 
 
     <!--navbar-->
@@ -808,18 +859,16 @@
         </footer>
         <!-- ******  Footer end  ******** -->
 
-
-
-
-        <audio autoplay class="audio" src="pianoNature.mp3"></audio>
+        
+        <!-- <audio autoplay class="audio" src="pianoNature.mp3"></audio> -->
 
         <!-- <iframe src="pianoNature.mp3" type="audio/mp3" allow="autoplay" class="audio" style="display: none;"></iframe> -->
 
-        <div class="scrolltop float-right">
+       <!--  <div class="scrolltop float-right">
             <a class="floating-btn" id="audio-btn">
                 <i class="fa fa-music" id="mybtn"></i>
             </a>
-        </div>
+        </div> -->
 
 
 
